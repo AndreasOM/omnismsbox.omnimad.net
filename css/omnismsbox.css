@@ -17,10 +17,39 @@ h1 {
 #header {
   background-color: #89BC23;
   margin: 0;
+  text-align: center;
+  font-weight: bold;
 }
 
+#topheader {
+	font-weight: bold;
+}
+#topheader a {
+	text-decoration: none;
+}
+#topheader a:hover {
+	text-decoration: underline;
+}
+
+#content {
+	padding-top: 20px;
+}
+
+#content h2{
+	margin-bottom: 5px;
+}
 #footer {
   background-color: #89BC23;
+  text-align: center;
+  font-weight: bold;
+}
+
+#footer a {
+	text-decoration: none;
+}
+
+#footer a:hover {
+	text-decoration: underline;
 }
 
 .container_12,
